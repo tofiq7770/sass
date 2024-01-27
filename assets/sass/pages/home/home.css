@@ -325,38 +325,6 @@
   height: 30px;
   padding: 5px;
 }
-#card-slide .slide .card .back-slide .text {
-  position: relative;
-  bottom: 100px;
-  left: 15px;
-  border: 1px solid rgb(1, 1, 1);
-  background-color: rgb(0, 0, 0);
-  width: 170px;
-  height: 100px;
-}
-#card-slide .slide .card .back-slide .text p {
-  padding: 5px;
-  line-height: 3px;
-  color: rgb(255, 255, 255);
-}
-#card-slide .slide .card .text2 p {
-  line-height: 3px;
-  margin-left: 20px;
-  margin-top: -50px;
-  visibility: visible;
-  color: rgb(0, 0, 0);
-}
-#card-slide .slide .card .text2 p:nth-child(3) {
-  color: #f15803;
-}
-#card-slide .slide .card .box button {
-  visibility: hidden;
-  color: white;
-  background-color: black;
-  border-radius: 0px;
-  margin-top: 70px;
-  margin-left: 30px;
-}
 #card-slide .slide .card-image:hover img {
   opacity: 0.7;
 }
@@ -394,9 +362,7 @@
 #smartphone .image:hover img {
   opacity: 0.7;
 }
-#smartphone .image2:hover img {
-  opacity: 0.7;
-}
+
 
 #about {
   margin-top: 20px;
@@ -416,15 +382,6 @@
   color: white;
   opacity: 0.7;
   list-style: none;
-}
-#about .list ul li a {
-  text-decoration: none;
-  color: white;
-  transition: 0.3s;
-}
-#about .list ul li a:hover {
-  color: #f15803;
-  margin-left: 5px;
 }
 #about .list input {
   width: 250px;
@@ -465,154 +422,3 @@
 #about .down .credit img:hover {
   opacity: 0.7;
 }
-
-@media only screen and (max-width: 992px) {
-  #navbar .navbar-left .menyu {
-    display: block;
-  }
-  #navbar .navbar-left ul {
-    display: none;
-  }
-  #navbar .navbar-right {
-    display: none;
-  }
-  #nav-down .logo img {
-    width: 129px;
-    height: 24px;
-  }
-  #nav-down .search input {
-    display: none;
-  }
-  #nav-down .call h2 {
-    display: none;
-  }
-  #nav-down .call p {
-    display: none;
-  }
-  #nav-down .price span {
-    display: none;
-  }
-  #gadjets {
-    display: none;
-  }
-  #image .img img {
-    height: 300px;
-  }
-  #slider .slide-box {
-    border: 1px solid rgb(192, 192, 192);
-    width: 100%;
-    height: 150px;
-  }
-  #slider .slide-box .marks img {
-    width: 60px;
-    height: 55px;
-    transition: width 0.5s, height 0.5s;
-    opacity: 0.8;
-    margin-right: 50px;
-  }
-  #slider .slide-box .marks img:hover {
-    width: 65px;
-    height: 60px;
-    opacity: 1;
-  }
-  #suggest .box {
-    border: 1px solid rgb(192, 192, 192);
-    width: 400px;
-    height: 390px;
-    margin-left: 50px;
-  }
-  #suggest .box .text {
-    border: 1px solid rgb(192, 192, 192);
-    width: 400px;
-    height: 40px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-  }
-  #suggest .box .text .icon {
-    display: none;
-  }
-  #suggest .box .card1 {
-    display: block;
-  }
-  #suggest .box .card1 .image img {
-    width: 300px;
-    height: 250px;
-  }
-  #suggest .suggest-img img {
-    display: none;
-  }
-  #new-product .text li a b {
-    font-size: small;
-  }
-  #new-product .icons .select {
-    display: none;
-  }
-  #card-slide .slide {
-    display: block;
-  }
-  #smartphone .image img {
-    width: 200px;
-    height: 130px;
-  }
-  #smartphone .image2 img {
-    width: 450px;
-    height: 130px;
-    margin-top: 10px;
-  }
-  #about {
-    background-color: #262626;
-    width: 100%;
-    height: 950px;
-  }
-  #about .down {
-    border: none;
-  }
-  #about .down .sosial h4 {
-    display: none;
-  }
-  #about .down .credit img {
-    width: 35px;
-    height: 25px;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .navbar-right b {
-    font-size: 10px;
-  }
-  #nav-down .logo img {
-    width: 129px;
-    height: 24px;
-  }
-  #nav-down .search input {
-    width: 180px;
-  }
-  #suggest .suggest-img img {
-    width: 200px;
-    height: 400px;
-  }
-  #suggest .box .card1 h4 {
-    font-size: 15px;
-  }
-  #card-slide .slide {
-    display: block;
-  }
-  #card-slide .slide p {
-    font-size: small;
-  }
-  #card-slide .slide button {
-    position: relative;
-    right: 200px;
-    top: 1px;
-  }
-  #smartphone .image img {
-    width: 250px;
-    height: 130px;
-  }
-  #smartphone .image2 img {
-    width: 550px;
-    height: 130px;
-    margin-top: 10px;
-    margin-left: 20px;
-  }
-} /*# sourceMappingURL=home.css.map */
